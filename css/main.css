@@ -1,0 +1,53 @@
+/*STYLES*/
+.w-100  {
+  opacity: 0.6;
+  width:100%!important;
+}
+
+.bg-light {
+    background-color:transparent !important;
+}
+
+.bannerContainer {
+    position:relative;
+}
+.carousel {
+    position:absolute;
+    top:0;
+}
+.navbar {
+    position:absolute;
+    top:30px;
+    z-index:10;
+    background:transparent;
+    width:100%;
+}
+
+.navbar-brand {
+    padding-bottom:0%;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    padding-bottom:0%;
+}
+
+.dropdown-menu {
+    opacity: 0.6;
+}
+
+.dropdown-item {
+    background-color:transparent !importan;
+}
+
+a:hover {
+    text-decoration: none;
+    background-color: transparent !importan;
+}
+a {
+    background-color:transparent !importan;
+    color:transparent;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    background-color:transparent !importan;
+}
