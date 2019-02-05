@@ -1,23 +1,21 @@
 /*STYLES*/
-.w-100  {
-  opacity: 0.6;
-  width:100%!important;
+
+
+.index {
+  background: url(../img/background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .bg-light {
     background-color:transparent !important;
 }
 
-.bannerContainer {
-    position:relative;
-}
-.carousel {
-    position:absolute;
-    top:0;
-}
 .navbar {
-    position:absolute;
     top:30px;
+    margin-bottom:5%;
     z-index:10;
     background:transparent;
     width:100%;
@@ -43,11 +41,121 @@ a:hover {
     text-decoration: none;
     background-color: transparent !importan;
 }
-a {
-    background-color:transparent !importan;
-    color:transparent;
-}
 
 .navbar-light .navbar-nav .nav-link {
     background-color:transparent !importan;
+
 }
+
+.maps iframe{
+    opacity:0%;
+    margin-left:10%;
+    width:80%;
+    height:120%;
+	margin-bottom: 8%;
+	margin-top:2%;
+    box-shadow: 1px 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.container h3{
+    text-align:center;
+    opacity:0%;
+    position:absolute;
+    text-align :center;
+    padding-left:15%;
+}
+
+body {
+    color:rgba(0,0,0,.9);
+    font-size:80%;
+}
+
+.container {
+    margin-top:2%;
+}
+
+hr.style-six {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    margin-top:10%;
+}
+
+.titulocontacto {
+    text-align:center;
+    color:#343a40;
+    padding-bottom:2%;
+}
+
+.direccion {
+    margin-left:10%;
+}
+
+.footer {
+    text-align:center !important;
+    color:#343a40;
+}
+
+dd {
+    color:#343a40;
+}
+
+dt {
+    color:#343a40;
+}
+
+.pull-right {
+    color:#343a40;
+    text-align:right !important;
+    opacity:0%;
+    margin-right:3%;
+}
+
+.pull-right a {
+    color:#FAFAFA;
+}
+
+.card-img-top {
+    width:30% !important;
+    margin-left:33%;
+    margin-top:5%;
+}
+
+.card-deck {
+    opacity: 0.8;
+}
+
+.card-title {
+    text-align:center;
+}
+
+.card-text {
+    text-align:center;
+}
+
+.titulocarousel {
+    text-align:left;
+    color:#343a40;
+    margin-top:10%;
+    margin-bottom:2%;
+}
+
+.container-fluid {
+    margin-bottom:12%;
+}
+
+.marcas {
+    height:40% !important;
+    width: 50%;
+    max-height: 460px;
+    margin-top:10%;
+    margin-bottom:10%;
+    margin-left:25%;
+    opacity:0.8;
+    border-radius:10%;
+
+}
+
+
+
