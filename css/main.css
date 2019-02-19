@@ -13,66 +13,45 @@
     background-color:transparent !important;
 }
 
-.navbar {
-    top:30px;
-    margin-bottom:5%;
-    z-index:10;
+.bg-secondary {
+    opacity: 0.5;
+    margin-top:10%;
+    margin-bottom:10%;
+}
+
+
+.navbar-collapse {
+    top:20px;
     background:transparent;
     width:100%;
-}
-
-.navbar-brand {
-    padding-bottom:0%;
-}
-
-.navbar-light .navbar-nav .nav-link {
-    padding-bottom:0%;
+    height:100px;
+    padding-bottom:3%;
+    padding: 0rem !important;
 }
 
 .dropdown-menu {
-    opacity: 0.6;
+    opacity: 0.9;
+    position:absolute !important;
 }
 
-.dropdown-item {
-    background-color:transparent !importan;
-}
-
-a:hover {
-    text-decoration: none;
-    background-color: transparent !importan;
-}
-
-.navbar-light .navbar-nav .nav-link {
-    background-color:transparent !importan;
-
-}
-
-.maps iframe{
-    opacity:0%;
-    margin-left:10%;
-    width:80%;
-    height:120%;
-	margin-bottom: 8%;
-	margin-top:2%;
+.maps iframe {
+    width:100%;
+    height:100%;
     box-shadow: 1px 0 4px 4px rgba(0, 0, 0, 0.2);
 }
 
 .container h3{
     text-align:center;
     opacity:0%;
-    position:absolute;
-    text-align :center;
+
     padding-left:15%;
 }
 
 body {
-    color:rgba(0,0,0,.9);
+    color:#24282C;
     font-size:80%;
 }
 
-.container {
-    margin-top:2%;
-}
 
 hr.style-six {
     border: 0;
@@ -82,38 +61,17 @@ hr.style-six {
     margin-top:10%;
 }
 
-.titulocontacto {
-    text-align:center;
-    color:#343a40;
-    padding-bottom:2%;
-}
-
-.direccion {
-    margin-left:10%;
-}
-
 .footer {
     text-align:center !important;
-    color:#343a40;
+    color:#24282C;
 }
 
 dd {
-    color:#343a40;
+    color:#24282C !important;
 }
 
 dt {
-    color:#343a40;
-}
-
-.pull-right {
-    color:#343a40;
-    text-align:right !important;
-    opacity:0%;
-    margin-right:3%;
-}
-
-.pull-right a {
-    color:#FAFAFA;
+    color:#24282C !important;
 }
 
 .card-img-top {
@@ -132,30 +90,76 @@ dt {
 
 .card-text {
     text-align:center;
+    font-size:0.8rem;
 }
 
 .titulocarousel {
     text-align:left;
-    color:#343a40;
-    margin-top:10%;
+    color:#24282C;
+    margin-top:5%;
     margin-bottom:2%;
 }
 
 .container-fluid {
-    margin-bottom:12%;
+    margin-bottom:1%;
 }
 
 .marcas {
-    height:40% !important;
-    width: 50%;
-    max-height: 460px;
     margin-top:10%;
     margin-bottom:10%;
-    margin-left:25%;
-    opacity:0.8;
+    margin-left: auto;
+    margin-right: auto;
+    opacity:0.7;
     border-radius:10%;
-
+    width:600px !important;
 }
+
+.carousel-inner {
+    border-radius: 5px;
+}
+
+.border-light {
+    background-color:#ffffff;
+    opacity:0.5;
+    max-width: 100% !important;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left:10%;
+    margin-right:10%;
+    margin-top:10%;
+    }
+
+.border-light dd dt {
+    color:#24282C;
+}
+
+.navbar-toggler {
+    margin-top:5%;
+    margin-bottom:5%;
+}
+
+.container {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color:#000000;
+}
+
+.direccion {
+    text-align:center !important;
+}
+
+.text-uppercase {
+    margin-top:2% !important;
+}
+
+h5 {
+    font-size:1.10rem;
+    text-align: center !important;
+}
+
 
 
 
